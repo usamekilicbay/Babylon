@@ -9,7 +9,7 @@ using UnityEngine.SceneManagement;
 
 public class Rewarded : MonoBehaviour {
 
-    public string appId;
+    public string adID;
     private RewardedAd rewardedAd;
 
     public void Start()
@@ -21,7 +21,7 @@ public class Rewarded : MonoBehaviour {
     {
         string adUnitId;
 #if UNITY_ANDROID
-        adUnitId = appId;
+        adUnitId = adID;
 #elif UNITY_IPHONE
             adUnitId = appId;
 #else

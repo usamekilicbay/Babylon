@@ -29,11 +29,11 @@ public class LevelBuyControl : MonoBehaviour {
 
     //private static int standardLevelValue = 1000;
    
-    private static int iceLevelValue = 5000;
-    private static int desertLevelValue = 10000;
-    private static int iceCreamLevelValue = 50000;
-    private static int jungleLevelValue = 100000;
-    private static int lavaLevelValue = 750000;
+    private static int iceLevelValue = 500;
+    private static int desertLevelValue = 1000;
+    private static int iceCreamLevelValue = 5000;
+    private static int jungleLevelValue = 7000;
+    private static int lavaLevelValue = 10000;
 
     public GameObject snowWorldLockIcon, desertWorldLockIcon, iceCreamWorldLockIcon, jungleWorldLockIcon, lavaWorldLockIcon;
     public Text standardWorldText, snowWorldText, desertWorldText, iceCreamWorldText, jungleWorldText, lavaWorldText;
@@ -53,11 +53,11 @@ public class LevelBuyControl : MonoBehaviour {
         activeSceneControlScript = ActiveSceneControl.instance;
 
         standardWorldText.text = "Selected";
-        snowWorldText.text = "5000 $";
-        desertWorldText.text = "10000 $";
-        iceCreamWorldText.text = "50000 $";
-        jungleWorldText.text = "100000 $";
-        lavaWorldText.text = "750000 $";
+        snowWorldText.text = "500 $";
+        desertWorldText.text = "1000 $";
+        iceCreamWorldText.text = "5000 $";
+        jungleWorldText.text = "7000 $";
+        lavaWorldText.text = "10000 $";
 
         IsLockMT();
        

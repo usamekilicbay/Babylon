@@ -612,6 +612,21 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 114053872921112964, guid: aea739466e312cc4b80a20d3e2780c1e,
+        type: 3}
+      propertyPath: scoreText
+      value: 
+      objectReference: {fileID: 1669758627}
+    - target: {fileID: 114053872921112964, guid: aea739466e312cc4b80a20d3e2780c1e,
+        type: 3}
+      propertyPath: gameOverMoneyText
+      value: 
+      objectReference: {fileID: 206233292}
+    - target: {fileID: 114053872921112964, guid: aea739466e312cc4b80a20d3e2780c1e,
+        type: 3}
+      propertyPath: gameOver
+      value: 
+      objectReference: {fileID: 502432310}
     - target: {fileID: 114133345590640250, guid: aea739466e312cc4b80a20d3e2780c1e,
         type: 3}
       propertyPath: pausePanel
@@ -637,21 +652,6 @@ PrefabInstance:
       propertyPath: pauseButton
       value: 
       objectReference: {fileID: 794098934}
-    - target: {fileID: 114053872921112964, guid: aea739466e312cc4b80a20d3e2780c1e,
-        type: 3}
-      propertyPath: scoreText
-      value: 
-      objectReference: {fileID: 1669758627}
-    - target: {fileID: 114053872921112964, guid: aea739466e312cc4b80a20d3e2780c1e,
-        type: 3}
-      propertyPath: gameOverMoneyText
-      value: 
-      objectReference: {fileID: 206233292}
-    - target: {fileID: 114053872921112964, guid: aea739466e312cc4b80a20d3e2780c1e,
-        type: 3}
-      propertyPath: gameOver
-      value: 
-      objectReference: {fileID: 502432310}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aea739466e312cc4b80a20d3e2780c1e, type: 3}
 --- !u!1 &273182971
@@ -1078,6 +1078,10 @@ PrefabInstance:
       propertyPath: m_Size.y
       value: 1.72
       objectReference: {fileID: 0}
+    - target: {fileID: 4363535190506380, guid: db3bd4bb3ca7fa442b35f0989f5ecf43, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.3
+      objectReference: {fileID: 0}
     - target: {fileID: 114638271738127658, guid: db3bd4bb3ca7fa442b35f0989f5ecf43,
         type: 3}
       propertyPath: monsterSound
@@ -1092,10 +1096,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Volume
       value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4363535190506380, guid: db3bd4bb3ca7fa442b35f0989f5ecf43, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db3bd4bb3ca7fa442b35f0989f5ecf43, type: 3}
@@ -2530,6 +2530,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1305213340563888, guid: dbf8e15061c70f44cb235510c594d87f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1018309870565564, guid: dbf8e15061c70f44cb235510c594d87f, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -2549,21 +2553,6 @@ PrefabInstance:
     - target: {fileID: 4254036914269084, guid: dbf8e15061c70f44cb235510c594d87f, type: 3}
       propertyPath: m_LocalPosition.y
       value: 2.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 114259932805788218, guid: dbf8e15061c70f44cb235510c594d87f,
-        type: 3}
-      propertyPath: monsterSound
-      value: 
-      objectReference: {fileID: 8300000, guid: 4e9a429b5c00f4f2e8234fe5835fef69, type: 3}
-    - target: {fileID: 82202467917304900, guid: dbf8e15061c70f44cb235510c594d87f,
-        type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 82202467917304900, guid: dbf8e15061c70f44cb235510c594d87f,
-        type: 3}
-      propertyPath: m_Volume
-      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 4344712812846718, guid: dbf8e15061c70f44cb235510c594d87f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2596,14 +2585,6 @@ PrefabInstance:
     - target: {fileID: 4344712812846718, guid: dbf8e15061c70f44cb235510c594d87f, type: 3}
       propertyPath: m_RootOrder
       value: 16
-      objectReference: {fileID: 0}
-    - target: {fileID: 1305213340563888, guid: dbf8e15061c70f44cb235510c594d87f, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4084556444254026, guid: dbf8e15061c70f44cb235510c594d87f, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.3
       objectReference: {fileID: 0}
     - target: {fileID: 114142726630032866, guid: dbf8e15061c70f44cb235510c594d87f,
         type: 3}
@@ -2644,6 +2625,25 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Size.x
       value: 2.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4084556444254026, guid: dbf8e15061c70f44cb235510c594d87f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114259932805788218, guid: dbf8e15061c70f44cb235510c594d87f,
+        type: 3}
+      propertyPath: monsterSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 4e9a429b5c00f4f2e8234fe5835fef69, type: 3}
+    - target: {fileID: 82202467917304900, guid: dbf8e15061c70f44cb235510c594d87f,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 82202467917304900, guid: dbf8e15061c70f44cb235510c594d87f,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dbf8e15061c70f44cb235510c594d87f, type: 3}
@@ -3310,7 +3310,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7242716b75276543aeca16f696f6e37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  appId: ca-app-pub-5489432413164397/6408849073
+  adID: ca-app-pub-5489432413164397/1292431681
 --- !u!1 &1051478297
 GameObject:
   m_ObjectHideFlags: 0

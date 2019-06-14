@@ -10,13 +10,13 @@ public class HiddenCoin : MonoBehaviour {
     }
     void Update ()
     {
-        if (SceneManager.GetActiveScene().name == "MainMenuScene")
+        /*if (SceneManager.GetActiveScene().name == "MainMenuScene")
         {
             if (Input.touchCount == 3)
             {
                 PlayerPrefs.SetInt("Coin", 10000000);
                 PlayerPrefs.Save();
             }
-        }
+        }*/
 	}
 }

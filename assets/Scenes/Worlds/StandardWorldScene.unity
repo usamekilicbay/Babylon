@@ -492,6 +492,21 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 114053872921112964, guid: aea739466e312cc4b80a20d3e2780c1e,
+        type: 3}
+      propertyPath: scoreText
+      value: 
+      objectReference: {fileID: 1669758627}
+    - target: {fileID: 114053872921112964, guid: aea739466e312cc4b80a20d3e2780c1e,
+        type: 3}
+      propertyPath: gameOverMoneyText
+      value: 
+      objectReference: {fileID: 206233292}
+    - target: {fileID: 114053872921112964, guid: aea739466e312cc4b80a20d3e2780c1e,
+        type: 3}
+      propertyPath: gameOver
+      value: 
+      objectReference: {fileID: 502432310}
     - target: {fileID: 114133345590640250, guid: aea739466e312cc4b80a20d3e2780c1e,
         type: 3}
       propertyPath: pausePanel
@@ -517,21 +532,6 @@ PrefabInstance:
       propertyPath: pauseButton
       value: 
       objectReference: {fileID: 794098934}
-    - target: {fileID: 114053872921112964, guid: aea739466e312cc4b80a20d3e2780c1e,
-        type: 3}
-      propertyPath: scoreText
-      value: 
-      objectReference: {fileID: 1669758627}
-    - target: {fileID: 114053872921112964, guid: aea739466e312cc4b80a20d3e2780c1e,
-        type: 3}
-      propertyPath: gameOverMoneyText
-      value: 
-      objectReference: {fileID: 206233292}
-    - target: {fileID: 114053872921112964, guid: aea739466e312cc4b80a20d3e2780c1e,
-        type: 3}
-      propertyPath: gameOver
-      value: 
-      objectReference: {fileID: 502432310}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aea739466e312cc4b80a20d3e2780c1e, type: 3}
 --- !u!1001 &236498976
@@ -3137,7 +3137,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7242716b75276543aeca16f696f6e37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  appId: ca-app-pub-5489432413164397/6408849073
+  adID: ca-app-pub-5489432413164397/1292431681
 --- !u!1 &1040157862 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1980364371396554, guid: 669efa35b265ecd4582a11d378dd4f8d,

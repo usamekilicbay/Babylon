@@ -401,14 +401,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 600579810}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d6d470fe145ea74cae1665170b50a2c, type: 3}
+  m_Script: {fileID: 11500000, guid: 64ffd09653761bf449d9cfc0de2fdc78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isActivate: 1
-  yenidenGoster: 1
-  waitsec: 3
-  adsShowTime: 100
-  firstAdsShowTime: 10
+  intestinial_id: ca-app-pub-5489432413164397/7849213124
+  maxAdTime: 100
 --- !u!1 &1967382899
 GameObject:
   m_ObjectHideFlags: 0
